@@ -1,0 +1,60 @@
+<?php
+
+namespace Boosty\POI;
+
+class CellStyle extends POI {
+	/*
+		ALT_BARS 	3
+		BIG_SPOTS 	9
+		BRICKS 	10
+		DIAMONDS 	16
+		FINE_DOTS 	2
+		LEAST_DOTS 	18
+		LESS_DOTS 	17
+		NO_FILL 	0
+		SOLID_FOREGROUND 	1
+		SPARSE_DOTS 	4
+		SQUARES 	15
+		THICK_BACKWARD_DIAG 	7
+		THICK_FORWARD_DIAG 	8
+		THICK_HORZ_BANDS 	5
+		THICK_VERT_BANDS 	6
+		THIN_BACKWARD_DIAG 	13
+		THIN_FORWARD_DIAG 	14
+		THIN_HORZ_BANDS 	11
+		THIN_VERT_BANDS 	12
+	*/
+	const ALIGNMENT = array(
+		'GENERAL',
+		'LEFT',
+		'CENTER',
+		'RIGHT',
+		'FILL',
+		'JUSTIFY',
+		'CENTER_SELECTION'
+	);
+
+	const VERTICAL = array(
+		'TOP',
+		'CENTER',
+		'BOTTOM',
+		'JUSTIFY'
+	);
+
+	const BORDER = array(
+		'NONE',
+		'THIN',
+		'MEDIUM',
+		'DASHED',
+		'DOTTED',
+		'THICK',
+		'DOUBLE',
+		'HAIR',
+		'MEDIUM_DASHED',
+		'DASH_DOT',
+		'MEDIUM_DASH_DOT',
+		'DASH_DOT_DOT',
+		'MEDIUM_DASH_DOT_DOT',
+		'SLANTED_DASH_DOT'
+	);
+}
